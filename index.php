@@ -39,8 +39,22 @@
             
                 <div class="col-lg-8 offset-lg-2">
                     <div class="form-group">
-                        <label>Mixture Name</label>
+                        <label>Marca</label>
                         <input type="text" name="mixture_name" id="" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Modelo</label>
+                        <input type="text" name="mixture_name" id="" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Año</label>
+                        <select type="text" name="mixture_name" id="" class="form-control" required>
+                            <?php 
+                            for($x = date('Y'); $x > 1900 ; $x--):
+                            ?>
+                                <option><?php echo $x; ?></option>
+                            <?php endfor; ?>
+                        </select>
                     </div>
                 </div>
             

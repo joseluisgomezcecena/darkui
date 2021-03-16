@@ -96,6 +96,13 @@
         outline: 1px solid black;
         }
 
+        .color-card-dark-color{
+            background-color: #7e3af2;
+        }
+
+        .p-color{
+            background-color: #fe143c;
+        }
     </style>
 
 
